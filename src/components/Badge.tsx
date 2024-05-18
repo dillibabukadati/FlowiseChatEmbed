@@ -45,7 +45,7 @@ export const Badge = (props: Props) => {
       }}
     >
       Powered by
-      <a
+      {/* <a
         ref={liteBadge}
         href={'https://flowiseai.com'}
         target="_blank"
@@ -55,7 +55,7 @@ export const Badge = (props: Props) => {
         style={{ 'font-weight': 'bold', color: props.poweredByTextColor ?? defaultTextColor }}
       >
         <span> Flowise</span>
-      </a>
+      </a> */}
     </span>
   );
 };
